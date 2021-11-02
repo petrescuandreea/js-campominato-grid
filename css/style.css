@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.square-container {
+    width: 600px;
+    height: 600px;
+    margin: 40px auto;
+    border: 2px solid blue;
+}
+
+.square {
+    float: left;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid blue;
+}
