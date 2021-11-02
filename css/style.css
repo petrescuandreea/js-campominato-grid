@@ -17,7 +17,21 @@ body {
 
 .square {
     float: left;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.square-l1 {
     width: calc(100% / 10);
     height: calc(100% / 10);
-    border: 2px solid blue;
+}
+
+.square-l2 {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.square-l3 {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
