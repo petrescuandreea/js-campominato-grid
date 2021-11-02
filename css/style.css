@@ -12,12 +12,12 @@ body {
     width: 600px;
     height: 600px;
     margin: 40px auto;
-    border: 2px solid blue;
+    border: 2px solid lightblue;
 }
 
 .square {
     float: left;
-    border: 2px solid blue;
+    border: 2px solid lightblue;
     cursor: pointer;
 }
 
@@ -34,4 +34,8 @@ body {
 .square-l3 {
     width: calc(100% / 7);
     height: calc(100% / 7);
+}
+
+.square.clicked-true {
+    background-color: lightblue;
 }
